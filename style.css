@@ -5,8 +5,8 @@
 }
 
 .menu-container {
-    display: flex;
-    justify-content: center;
+    display: flex; /* enables the flexbox layout mode */
+    justify-content: center; /* same effect as adding a margin: 0 auto */
     color: #fff;
     background-color: #5995DA;
     padding: 20px 0;
@@ -94,4 +94,8 @@
   background-color: #5995DA;
   flex: initial;
   width: 300px;
+}
+
+.signup {
+  margin-left: auto;
 }
