@@ -65,14 +65,33 @@
 
 
 .first-item{
-  order: 1; /*default value is 0, and increasing from there moves the item to the right*/
+  order: 1; /* default value is 0, and increasing from there moves the item to the right */
 }
 
 .last-item {
-  order: -1; /*default value is 0, and decreasing it from there moves left*/
+  order: -1; /* default value is 0, and decreasing it from there moves left */
 }
 
 .social, .subscribe {
-  align-self: flex-end; /*Adding this to a flex item overrides the align-items value from its container*/
+  align-self: flex-end; /* Adding this to a flex item overrides the align-items value from its container */
   margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1; /* tells the items to stretch to match the width of .footer */
+}
+
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
 }
