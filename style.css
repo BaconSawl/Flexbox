@@ -71,3 +71,8 @@
 .last-item {
   order: -1; /*default value is 0, and decreasing it from there moves left*/
 }
+
+.social, .subscribe {
+  align-self: flex-end; /*Adding this to a flex item overrides the align-items value from its container*/
+  margin-bottom: 30px;
+}
